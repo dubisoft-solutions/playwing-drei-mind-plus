@@ -1,0 +1,28 @@
+.btn {
+    padding: 0;
+}
+
+.btn-warning {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: $black;
+    background: $green;
+    border-radius: 1.875rem;
+    border: none;
+    padding: .875rem;
+    text-decoration: none;
+}
+
+.btn-link {
+    font-weight: 500;
+    font-size: .75rem;
+    color: $green;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+{
+    "devReplacements": [
+        { "name": "%headerBlock%", "value": "" },
+        { "name": "%footerBlock%", "value": "" }
+    ],
+    "webServerConf": {
+        "server": {
+            "baseDir": "./dist"
+        },
+        "notify": false
+    }
+}

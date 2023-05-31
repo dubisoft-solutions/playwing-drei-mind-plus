@@ -1,0 +1,81 @@
+@import 'theme/theme';
+html {
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 88vh;
+    .banner {
+        position: relative;
+        height: 91vw;
+        @media (min-width: 768px) {
+            height: 740px;
+        }
+        @media (min-width: 992px) {
+            height: 480px;
+        }
+        @media (min-width: 1200px) {
+            height: 580px;
+        }
+        .banner-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            object-fit: cover;
+            @media (min-width: 576px) {
+                object-fit: contain;
+            }
+        }
+        .banner-logo {
+            position: absolute;
+            top: 0;
+            @media (min-width: 576px) {
+                object-fit: contain;
+            }
+        }
+        .banner-shadow {
+            background: linear-gradient(179.84deg, rgba(253, 231, 239, 0) 5.2%, #FFFFFF 50%);
+            width: 100%;
+            height: 126px;
+            position: absolute;
+            bottom: 0;
+            .banner-text {
+                position: absolute;
+                bottom: -.938rem;
+                right: 0;
+                left: 0;
+            }
+        }
+    }
+    .hero {
+        padding: 3rem 0 2rem 0;
+    }
+    .footer {
+        margin-top: auto;
+        .list-inline {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            .list-inline-item {
+                list-style-type: none;
+                padding: 0 12px;
+                border-right: 1px solid $black-70;
+                padding-bottom: .25rem;
+                .btn-link {
+                    font-weight: 400;
+                    font-size: .75rem;
+                    color: $black;
+                }
+            }
+            .list-inline-item:last-child {
+                border-right: none;
+            }
+            .list-inline-item.border-right:last-child {
+                border-right: 1px solid $black-70;
+            }
+        }
+    }
+}

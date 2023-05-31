@@ -1,0 +1,31 @@
+p {
+    font-size: .75rem;
+    color: $black;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.375rem;
+    color: $green;
+    margin-bottom: 0;
+}
+
+.text-description {
+    font-weight: 600;
+    font-size: .75rem;
+    color: $black-69;
+    margin-bottom: 2.375rem;
+}
+
+.text-description-second {
+    font-weight: 400;
+    font-size: .688rem;
+    color: $black-69;
+    margin-bottom: 1rem;
+    a {
+        font-weight: 400;
+        font-size: .688rem;
+    }
+}
