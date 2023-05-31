@@ -11,7 +11,7 @@ html {
         position: relative;
         height: 91vw;
         @media (min-width: 768px) {
-            height: 740px;
+            height: 710px;
         }
         @media (min-width: 992px) {
             height: 480px;
@@ -31,9 +31,18 @@ html {
         }
         .banner-logo {
             position: absolute;
-            top: 0;
+            top: 15vh;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
             @media (min-width: 576px) {
-                object-fit: contain;
+                top: 20vh;
+            }
+            @media (min-width: 768px) {
+                top: 30vh;
+            }
+            @media (min-width: 1200px) {
+                top: 25vh;
             }
         }
         .banner-shadow {
